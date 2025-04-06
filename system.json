@@ -32,9 +32,24 @@
     }],
     "documentTypes": {
       "Actor": {
-        "hero": { "htmlFields": ["background.biography"] },
-        "villain": { "htmlFields": ["background.biography"] },
-        "pawn": {}
+        "character": { 
+          "htmlFields": ["background.biography"], 
+          "filePathFields": {
+            "crest": ["IMAGE"]
+          }
+        },
+        "npc": { 
+          "htmlFields": ["background.biography"], 
+          "filePathFields": {
+            "crest": ["IMAGE"]
+          }
+        },
+        "creature": { 
+          "htmlFields": ["background.biography"], 
+          "filePathFields": {
+            "crest": ["IMAGE"]
+          }
+        },
       },
       "Item": {
         "weapon": {},
