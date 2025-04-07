@@ -29,7 +29,7 @@
     "minimum": 12,
     "verified": "12.331"
   },
-  "esmodules": ["module/c-foundry-data-data-systems-boilerplate.mjs"],
+  "esmodules": ["d100rpg.mjs"],
   "styles": ["css/c-foundry-data-data-systems-boilerplate.css"],
   "languages": [
     {

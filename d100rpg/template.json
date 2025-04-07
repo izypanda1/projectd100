@@ -8,62 +8,76 @@
           "min": 0,
           "max": 10          
         },
-        "biography": " "
+        "biography": " ",
+        "attributes": {
+          "fue": {
+            "value": 10
+          },
+          "agi": {
+            "value": 10
+          },
+          "hab": {
+            "value": 10
+          },
+          "res": {
+            "value": 10
+          },
+          "per": {
+            "value": 10
+          },
+          "com": {
+            "value": 10
+          },
+          "cul": {
+            "value": 10
+          },
+          "asp": {
+            "value": 10
+          },
+          "templanza": {
+            "value": 50
+          }
+        }
       }
     },
     "character": {
       "templates": ["base"],
-      "attributes": {
-        "level": {
-          "value": 1
-        }
-      },
-      "abilities": {
-        "fue": {
-          "value": 10
-        },
-        "agi": {
-          "value": 10
-        },
-        "hab": {
-          "value": 10
-        },
-        "res": {
-          "value": 10
-        },
-        "per": {
-          "value": 10
-        },
-        "com": {
-          "value": 10
-        },
-        "cul": {
-          "value": 10
-        },
-        "asp": {
-          "value": 10
-        }
-      }      
+      "luck": {
+        "value": "@per + @com + @cul"
+      } 
     },
     "npc": {
-      "templates": ["base"],
+      "templates": ["base"]
     },
     "creature": {
-      "templates": ["base"],
+      "templates": ["base"]
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["weapon", "armor", "object", "feature", "spell"],
     "templates": {
       "base": {
         "description": ""
       }
     },
-    "item": {
+    "weapon": {
       "templates": ["base"],
       "quantity": 1,
       "weight": 0,
       "formula": "d100 + @fue"
+    },
+    "armor": {
+      "templates": ["base"],
+      "protection": 0,
+      "resistance": 0,
+      "cover": "",
+      "weight": 0
+    },
+    "object": {
+      "templates": ["base"],
+      "quantity": 0,
+      "weight": 0,
+      "price": 0
     },
     "feature": {
       "templates": ["base"]
