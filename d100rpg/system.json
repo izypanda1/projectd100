@@ -29,7 +29,7 @@
     "minimum": 12,
     "verified": "12.331"
   },
-  "esmodules": ["d100rpg.mjs"],
+  "esmodules": ["module/d100rpg.mjs"],
   "styles": ["css/c-foundry-data-data-systems-boilerplate.css"],
   "languages": [
     {
@@ -44,8 +44,12 @@
   "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
   "download": "This must link to a .zip file of the current version",
   "background": "systems/c-foundry-data-data-systems-boilerplate/assets/anvil-impact.png",
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid": {
+    "type": 1,
+    "distance": 1,
+    "units": "m",
+    "diagonals": 0
+  },
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "initiative": "1d100 + @agi + @per"
