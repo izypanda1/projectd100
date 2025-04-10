@@ -36,9 +36,141 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
     }
   ],
-  "packs": [],
+  "packs": [
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "skills",
+      "path": "packs/skills",
+      "systemCore": true,
+      "label": "Skills",
+      "banner": "systems/d100rpg/assets/compendium/skills.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "actions",
+      "path": "packs/actions",
+      "systemCore": true,
+      "label": "Actions",
+      "banner": "systems/d100rpg/assets/compendium/.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "weapons",
+      "path": "packs/weapons",
+      "systemCore": true,
+      "label": "Weapons",
+      "banner": "systems/d100rpg/assets/compendium/weapons.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "armor",
+      "path": "packs/armor",
+      "systemCore": true,
+      "label": "Armor",
+      "banner": "systems/d100rpg/assets/compendium/armor.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "setting",
+      "path": "packs/setting",
+      "systemCore": true,
+      "label": "Setting",
+      "banner": "systems/d100rpg/assets/compendium/setting.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Actor",
+      "name": "actors",
+      "path": "packs/actors",
+      "systemCore": true,
+      "label": "Contexto",
+      "banner": "systems/d100rpg/assets/compendium/actors.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "spells",
+      "path": "packs/spells",
+      "systemCore": true,
+      "label": "Spells",
+      "banner": "systems/d100rpg/assets/compendium/spells.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "equipment",
+      "path": "packs/equipment",
+      "systemCore": true,
+      "label": "Equipment",
+      "banner": "systems/d100rpg/assets/compendium/equipment.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    },
+    {
+      "system": "d100rpg",
+      "type": "Item",
+      "name": "books",
+      "path": "packs/books",
+      "systemCore": true,
+      "label": "Equipo",
+      "banner": "systems/d100rpg/assets/compendium/books.png",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags":{}
+    }
+  ],
   "packFolders": [],
   "socket": false,
   "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
